@@ -395,6 +395,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 			};
 			name = Debug;
 		};
@@ -402,6 +404,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 			};
 			name = Release;
 		};
